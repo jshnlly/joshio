@@ -28,3 +28,10 @@
   background-color: #336bd920;
   color: #336bd995;
 }
+
+
+@media (max-width: 414px) {
+  .container {
+    padding: 16px;
+  }
+}
