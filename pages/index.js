@@ -5,6 +5,12 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
+
+      <Head>
+        <title>Josh Nelson | Designer</title>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      </Head>
+
       <div className={styles.textContainer}>
         <p className={styles.header}>Josh Nelson</p>
         <p className={styles.base}>Designer at <span className={styles.textLink}><a href="https://instagram.com" target="_blank">Instagram</a></span> in SF. <span className={styles.textLink}><a href="https://joshn.substack.com" target="_blank">Writer</a></span>. Working weekends on <span className={styles.textLink}><a href="https://atmosphere.software" target="_blank">Atmosphere</a></span>.</p>
