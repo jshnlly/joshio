@@ -33,7 +33,7 @@
   cursor: ne-resize;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .container {
     padding: 16px;
   }
