@@ -13,13 +13,13 @@ export default function Home() {
 
       <div className={styles.textContainer}>
         <p className={styles.header}>Josh Nelson</p>
-        <p className={styles.base}>Designer at <span className={styles.textLink}><a href="https://instagram.com" target="_blank">Instagram</a></span> in SF. <span className={styles.textLink}><a href="https://joshn.substack.com" target="_blank">Writer</a></span>. Working weekends on <span className={styles.textLink}><a href="https://atmosphere.software" target="_blank">Atmosphere</a></span>.</p>
+        <p className={styles.base}>Designer at <span className={styles.textLink}><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></span> in SF. <span className={styles.textLink}><a href="https://joshn.substack.com" target="_blank" rel="noreferrer">Writer</a></span>. Working weekends on <span className={styles.textLink}><a href="https://atmosphere.software" target="_blank" rel="noreferrer">Atmosphere</a></span>.</p>
       </div>
 
       <div className={styles.linkContainer}>
         <p className={styles.base}>
-          <span className={styles.textLink}><a href="https://read.cv/josh" target="_blank">CV</a></span> • 
-          <span className={styles.textLink}><a href="https://twitter.com/jnelly2" target="_blank">Twitter</a></span> • <span className={styles.textLink}><a href="https://linkedin.com/in/jshn" target="_blank">LinkedIn</a></span> • <span className={styles.textLink}><a href="mailto:josh@joshn.io" target="_blank">Email</a></span>
+          <span className={styles.textLink}><a href="https://read.cv/josh" target="_blank" rel="noreferrer">CV</a></span> • 
+          <span className={styles.textLink}><a href="https://twitter.com/jnelly2" target="_blank" rel="noreferrer">Twitter</a></span> • <span className={styles.textLink}><a href="https://linkedin.com/in/jshn" target="_blank" rel="noreferrer">LinkedIn</a></span> • <span className={styles.textLink}><a href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">Email</a></span>
           </p>
       </div>
 
