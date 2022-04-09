@@ -13,7 +13,7 @@ export default function Home() {
 
       <div className={styles.textContainer}>
         <p className={styles.header}>Josh Nelson</p>
-        <p className={styles.base}>Designer at <span className={styles.textLink}><a className={styles.link} href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></span> in SF. <span className={styles.textLink}><a className={styles.link} href="https://joshn.substack.com" target="_blank" rel="noreferrer">Writer</a></span>. Working weekends on <span className={styles.textLink}><a className={styles.link} href="https://atmosphere.software" target="_blank" rel="noreferrer">Atmosphere</a></span>.</p>
+        <p className={styles.base}>Designer at <span className={styles.textLink}><a className={styles.link} href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></span> in SF.</p>
       </div>
 
       <div className={styles.linkContainer}>
