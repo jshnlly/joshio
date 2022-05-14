@@ -30,7 +30,7 @@ export default function Home() {
 
       <div className={styles.rightContainer}>
       <div className={styles.textContainerRight}>
-        <p className={styles.base}>Now {'\u2192'} Design at <span className={styles.textLink}><a className={styles.link} href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></span>, Writing at <span className={styles.textLink}><a className={styles.link} href="https://atmosphere.software" target="_blank" rel="noreferrer">Atmosphere</a></span></p>
+        <p className={styles.base}>Now {'\u2192'} Design at <span className={styles.textLink}><a className={styles.link} href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></span>, Writing at <span className={styles.textLink}><a className={styles.link} href="https://joshn.substack.com/" target="_blank" rel="noreferrer">Atmosphere</a></span></p>
         <p className={styles.secondary}>Previously {'\u2192'}  <span className={styles.strikethruLink}><a className={styles.link} href="https://almanac.io" target="_blank" rel="noreferrer">Almanac</a></span>,  <span className={styles.strikethruLink}><a className={styles.link} href="https://cbssports.com" target="_blank" rel="noreferrer">CBS Sports</a></span>, +  <span className={styles.strikethru}>startups </span>.</p>
       </div>
       </div>
