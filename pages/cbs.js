@@ -6,6 +6,12 @@ import Link from 'next/link'
 export default function Home() {
   return (
       <div className={styles.container}>
+
+        <Head>
+            <title>Josh Nelson | CBS Sports</title>
+            <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        </Head>
+
         <div className={styles.pageHeader}>
             <div className={styles.leftContainer}>
                 <div className={styles.textContainer}>
