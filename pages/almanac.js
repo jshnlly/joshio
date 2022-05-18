@@ -14,16 +14,16 @@ export default function Home() {
             </div>
             <div className={styles.rightContainer}>
                 <div className={styles.textContainerRight}>
-                    <p className={styles.base}>Now {'\u2192'} Design at <span className={styles.textLink}><a className={styles.link} href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></span>, writing about <span className={styles.textLink}><a className={styles.link} href="https://joshn.substack.com/" target="_blank" rel="noreferrer"><i>Interfaces</i></a></span></p>
-                    <p className={styles.secondary}>Previously {'\u2192'}  <span className={styles.strikethruLink}><Link href="/almanac">Almanac</Link></span>,  <span className={styles.strikethruLink}><a className={styles.link} href="https://cbssports.com" target="_blank" rel="noreferrer">CBS Sports</a></span>, +  <span className={styles.strikethru}>startups </span>.</p>
+                    <p className={styles.base}>Now {'\u2192'} Designing at <span className={styles.textLink}><a className={styles.link} href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></span>, writing about <span className={styles.textLink}><a className={styles.link} href="https://joshn.substack.com/" target="_blank" rel="noreferrer"><i>Interfaces</i></a></span></p>
+                    <p className={styles.secondary}>Previously {'\u2192'}  <span className={styles.strikethruLink}><Link href="/almanac">Almanac</Link></span>,  <span className={styles.strikethruLink}><Link href="/cbs">CBS Sports</Link></span>, +  <span className={styles.strikethru}>startups </span>.</p>
                 </div>
             </div>
         </div>
-        
+         
         <div className={styles.projectHeader}>
             <p className={styles.base}>Almanac</p>
             <p className={styles.base}>Product Design</p>
-            <p className={styles.baseSecondary}>Aug ‘21 – Dec ‘22</p>
+            <p className={styles.baseSecondary}>Aug ‘21 – Dec ‘21</p>
         </div>
 
 
