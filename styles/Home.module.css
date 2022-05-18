@@ -3,8 +3,6 @@
   font-family: Helvetica;
   min-height: 90vh;
   max-height: 100vh;
-  display: flex;
-  justify-content: space-between;
 }
 
 .pageHeader {
@@ -23,7 +21,7 @@
 
 .textContainerRight {
   max-width: 480px;
-  min-height: 90vh;
+  min-height: 20%;
   text-align: right;
 }
 
@@ -36,7 +34,7 @@
 .baseBio { 
   font-family: Helvetica;
   line-height: 140%;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .secondary { 
@@ -101,6 +99,7 @@
   .pageHeader {
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 48px;
 }
 
   .textContainer {
@@ -109,7 +108,7 @@
   }
 
   .leftContainer {
-    margin-bottom: 40px;
+    margin-bottom: 16px;
   }
 
   .secondary {
