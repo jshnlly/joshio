@@ -64,6 +64,13 @@
     line-height: 140%;
     margin-bottom: 4px;
   }
+
+  .baseTitle { 
+    font-family: Helvetica;
+    line-height: 140%;
+    margin-bottom: 4px;
+  }
+  
   
   .baseBio { 
     font-family: Helvetica;
