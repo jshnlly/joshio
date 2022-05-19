@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Josh Nelson | Designer</title>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/signature.png" type="image/x-icon" />
       </Head>
 
       <div className={styles.pageHeader}>

@@ -9,7 +9,7 @@ export default function Home() {
 
         <Head>
             <title>Josh Nelson | Almanac</title>
-            <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+            <link rel="icon" href="/signature.png" type="image/x-icon" />
         </Head>
 
         <div className={styles.pageHeader}>
