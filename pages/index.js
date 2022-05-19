@@ -26,8 +26,8 @@ export default function Home() {
 
         <div className={styles.infoContainer}>
           <div className={styles.textContainer}>
-              <p className={styles.baseBio}>I'm a product designer at Instagram in SF, working on sharing experiences across Feed, Stories, and Reels.</p>
-              <p className={styles.baseBio}>I'm passionate about delightful software — through designing it with care and intention and building it with craft. My approach to design starts at a high fidelity where I spend most of my time prototyping, trying to make things worth making.</p>
+              <p className={styles.baseBio}>I&apos;m a product designer at Instagram in SF, working on sharing experiences across Feed, Stories, and Reels.</p>
+              <p className={styles.baseBio}>I&apos;m passionate about delightful software — through designing it with care and intention and building it with craft. My approach to design starts at a high fidelity where I spend most of my time prototyping, trying to make things worth making.</p>
               <p className={styles.baseBio}>Want to chat? Drop me an <span className={styles.textLink}><a className={styles.link} href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">email</a></span>.</p>
           </div>
 
