@@ -36,6 +36,12 @@
     font-family: Helvetica;
     margin-bottom: 2px;
   }
+
+  .baseTitle { 
+    font-family: Helvetica;
+    margin-bottom: 2px;
+  }
+  
   .baseSecondary {
     font-family: Helvetica;
     margin-bottom: 2px;
@@ -50,6 +56,21 @@
     margin-bottom: 48px;
 }
 
+.videoDescription {
+    max-width: 470px;
+    text-align: center;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dividerSmall {
+    width: 33%;
+    height: 1.5px;
+    background-color: #00000010;
+    margin-top: 48px;
+}
 .textContainer {
     max-width: 480px;
   }
@@ -114,6 +135,10 @@
   .link:hover {
     cursor: ne-resize;
   }
+
+  .footer {
+      margin-top: 96px;
+  }
   
   
   @media (max-width: 948px) {
@@ -146,6 +171,10 @@
     .leftContainer {
       margin-bottom: 40px;
     }
+
+    .baseTitle {
+        margin-bottom: 24px;
+    }
   
     .secondary {
       margin-bottom: 8px;
@@ -153,5 +182,9 @@
   
     .textContainerRight {
       text-align: left;
+    }
+
+    .videoDescription {
+        text-align: left;
     }
   }
