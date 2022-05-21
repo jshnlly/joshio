@@ -23,20 +23,20 @@ export default function Home() {
             </div>
 
 
-            <video className={styles.video} src="/cbs1.mp4" autoPlay muted loop controls></video>
+            <video className={styles.video} src="/videos/cbs1.mp4" autoPlay muted loop controls></video>
 
             <div className={styles.videoDescription}>
                 <p className={styles.base}>I led the re-design for 247 Sports homepage and college properties that shipped as an MVP earlier this year. This design had to suit a national brand, as well as over 50 college sites that each had their own individual organizational needs.</p>
                 <div className={styles.dividerSmall}></div>
             </div>
 
-            <video className={styles.video} src="/cbs2.mp4" autoPlay muted loop controls></video>
+            <video className={styles.video} src="/videos/cbs2.mp4" autoPlay muted loop controls></video>
 
             <div className={styles.videoDescription}>
                 <p className={styles.base}>I led the re-design for 247 Sports homepage and college properties that shipped as an MVP earlier this year. This design had to suit a national brand, as well as over 50 college sites that each had their own individual organizational needs.</p>
             </div>
 
-            <video className={styles.video} src="/cbs3.mp4" autoPlay muted loop controls></video>
+            <video className={styles.video} src="/videos/cbs3.mp4" autoPlay muted loop controls></video>
 
             <div className={styles.videoDescription}>
                 <p className={styles.base}>I led the re-design for 247 Sports homepage and college properties that shipped as an MVP earlier this year. This design had to suit a national brand, as well as over 50 college sites that each had their own individual organizational needs.</p>
