@@ -9,16 +9,6 @@
     flex-direction: column;
   }
 
-.pageHeader {
-    min-height: 20%;
-    min-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    margin-bottom: 48px;
-}
-
 .projectHeader {
     width: 100%;
     text-align: center;
@@ -37,11 +27,6 @@
     margin-bottom: 2px;
   }
 
-  .baseTitle { 
-    font-family: Helvetica;
-    margin-bottom: 2px;
-  }
-  
   .baseSecondary {
     font-family: Helvetica;
     margin-bottom: 2px;
@@ -71,14 +56,6 @@
     background-color: #00000010;
     margin-top: 48px;
 }
-.textContainer {
-    max-width: 480px;
-  }
-  
-  .textContainerRight {
-    max-width: 480px;
-    text-align: right;
-  }
   
   .base { 
     font-family: Helvetica;
@@ -86,26 +63,6 @@
     margin-bottom: 4px;
   }
 
-  .baseTitle { 
-    font-family: Helvetica;
-    line-height: 140%;
-    margin-bottom: 4px;
-  }
-  
-  
-  .baseBio { 
-    font-family: Helvetica;
-    line-height: 140%;
-    margin-bottom: 8px;
-  }
-  
-  .secondary { 
-    font-family: Helvetica;
-    line-height: 140%;
-    color: #00000080;
-    margin-bottom: 4px;
-  }
-  
   .header {
     font-family: Helvetica;
     margin-bottom: 40px;
@@ -121,21 +78,6 @@
     cursor: ne-resize;
     border-bottom: 1.5px solid #00000050;
     color: #0984E3;
-  }
-  
-  .strikethruLink {
-    text-decoration: line-through;
-    transition: all 300ms ease-in-out;
-  }
-  
-  .strikethruLink:hover {
-    cursor: ne-resize;
-    border-bottom: 1.5px solid #00000050;
-    color: #0984E3;
-  }
-  
-  .strikethru {
-    text-decoration: line-through;
   }
   
   
