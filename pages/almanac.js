@@ -26,16 +26,16 @@ export default function Home() {
             </div>
 
             <video className={styles.video} src="/videos/almanac1.mp4" autoPlay muted loop controls></video>
-            <video className={styles.videoMobile} src="/videos/almanac1.mp4" muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/almanac1.mp4" controls></video>
 
             <video className={styles.video} src="/videos/almanac2.mp4" autoPlay muted loop controls></video>
-            <video className={styles.videoMobile} src="/videos/almanac2.mp4" muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/almanac2.mp4"controls></video>
 
             <video className={styles.video} src="/videos/almanac3.mp4" autoPlay muted loop controls></video>
-            <video className={styles.videoMobile} src="/videos/almanac3.mp4" muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/almanac3.mp4" controls></video>
 
             <video className={styles.video} src="/videos/almanac4.mp4" autoPlay muted loop controls></video>
-            <video className={styles.videoMobile} src="/videos/almanac4.mp4" muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/almanac4.mp4" controls></video>
 
             </div>
 

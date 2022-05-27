@@ -25,6 +25,8 @@ export default function Home() {
             </div>
 
             <video className={styles.video} src="/videos/qs.mp4" autoPlay muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/qs.mp4" controls></video>
+
         </div>
     </div>
     )
