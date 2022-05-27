@@ -22,8 +22,8 @@ export default function Home({ posts }) {
         <Header />
 
         <p className={styles.headerLink}>All Posts</p>
-        <div className={styles.burstList}>
-            {posts.map((post, index) => (
+        <div className={styles.burstList} key={id}>
+            {posts.map((id, post, index) => (
                 <div className={styles.burstLinkContainer}>&nbsp;&nbsp;{'\u2192'}&nbsp;&nbsp;<span className={styles.burstLink}><Post post={post} /></span></div>
             ))}
         </div>
