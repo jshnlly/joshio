@@ -33,7 +33,7 @@ export default function Home() {
           </div>
 
           <div className={styles.textContainer}>
-              <p className={styles.baseBio}>I spend my free time thinking, and <span className={styles.textLink}><Link href="/writing">writing</Link></span>, about how interface design can unlock human potential.</p>
+              <p className={styles.baseBio}>I spend my free time thinking, and <span className={styles.textLink}><a href="https://joshn.substack.com" target="_blank" rel="noreferrer">writing</a></span>, about how interface design can unlock human potential.</p>
           </div>
 
           <div className={styles.textContainer}>
