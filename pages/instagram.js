@@ -14,21 +14,18 @@ export default function Home() {
             <link rel="icon" href="/signature.png" type="image/x-icon" />
         </Head>
 
-        <Header />
-         
-            <div className={styles.projectHeader}>
-                <p className={styles.headerLink}>Instagram</p>
+        <div className={styles.content}>
+            <div className={styles.textContainer}>
+                <p className={styles.t1}><span className={styles.textLink}><Link className={styles.link} href="/">joshn.io</Link></span> / Instagram</p>
             </div>
 
             <div className={styles.textContainer}>
-              <p className={styles.projectTitle}>Quick Send v2</p>
-              <p className={styles.projectDescription}>Shipped May &apos;22 – prototypes made in Origami.</p>
+                <p className={styles.t1}>Quick Send v2</p>
+                <p className={styles.t2}>Shipped May &apos;22 – prototypes made in Origami.</p>
             </div>
 
-
             <video className={styles.video} src="/videos/qs.mp4" autoPlay muted loop controls></video>
-        
-            <Footer />
+        </div>
     </div>
     )
 }

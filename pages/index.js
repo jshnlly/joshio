@@ -11,33 +11,22 @@ export default function Home() {
         <title>Josh Nelson | Designer</title>
         <link rel="icon" href="/signature.png" type="image/x-icon" />
       </Head>
-        <div className={styles.infoContainer}>
-
-        <Header />
+        <div className={styles.content}>
 
           <div className={styles.textContainer}>
-              <p className={styles.baseBio}>I&apos;m an interface designer,</p>
-              <p className={styles.baseBio}>fanatically obsessed with the craft and interactions that shape software.</p>
+              <p className={styles.t1}>I&apos;m an interface designer, fanatically obsessed with the craft and interactions that shape software. I&apos;m currently living in San Francisco, designing sharing experiences for <span className={styles.textLink}><Link className={styles.link} href="/instagram">Instagram</Link></span>. I previously designed for <span className={styles.textLink}><Link className={styles.link} href="/almanac">Almanac</Link></span>, <span className={styles.textLink}><Link className={styles.link} href="/cbs">CBS Sports</Link></span>, + a few startups.</p>
           </div>
 
-          <div className={styles.textContainer}>
-              <p className={styles.baseBio}>I currently design at Instagram,</p>
-              <p className={styles.baseBio}>where I focus on <span className={styles.textLink}><Link href="/instagram">sharing experiences</Link></span>.</p>
-          </div>
+          <div className={styles.linkContainer}>
 
-          <div className={styles.textContainer}>
-              <p className={styles.baseBio}>I previously designed for <span className={styles.textLink}><a href="https://almanac.io" target="_blank" rel="noreferrer">Almanac</a></span>, <span className={styles.textLink}><a href="https://cbssports.com" target="_blank" rel="noreferrer">CBS Sports</a></span>, and a few startups, </p>
-              <p className={styles.baseBio}>where I focused on <span className={styles.textLink}><Link href="/almanac">file organization</Link></span>, <span className={styles.textLink}><Link href="/cbs">fan experiences</Link></span>, and a bit of everything, respectively.</p>
-          </div>
+              <span className={styles.textLink}><a className={styles.link} href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">josh@joshn.io</a></span>
+              <span className={styles.textLink}><a className={styles.link} href="https://joshn.substack.com" target="_blank" rel="noreferrer">joshn.substack.com</a></span>
 
-          <div className={styles.textContainer}>
-              <p className={styles.baseBio}>I spend my free time thinking, and <span className={styles.textLink}><a href="https://joshn.substack.com" target="_blank" rel="noreferrer">writing</a></span>, about how interface design can unlock human potential.</p>
-          </div>
+              <p className={styles.socialsContainer}>
+                <span className={styles.textLink}><a className={styles.link} href="https://twitter.com/jnelly2" target="_blank" rel="noreferrer">Twitter</a></span>, <span className={styles.textLink}><a className={styles.link} href="https://linkedin.com/in/jshn" target="_blank" rel="noreferrer">LinkedIn</a></span>, <span className={styles.textLink}><a className={styles.link} href="https://are.na/josh-nelson" target="_blank" rel="noreferrer">Are.na</a></span>, <span className={styles.textLink}><a className={styles.link} href="https://read.cv/josh" target="_blank" rel="noreferrer">CV</a></span>
+              </p>
 
-          <div className={styles.textContainer}>
-              <p className={styles.baseBio}>You can get in touch by <span className={styles.textLink}><a href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">email</a></span>, <span className={styles.textLink}><a className={styles.link} href="https://linkedin.com/in/jshn" target="_blank" rel="noreferrer">linkedin</a></span>, <span className={styles.textLink}><a className={styles.link} href="https://twitter.com/jnelly2" target="_blank" rel="noreferrer">twitter</a></span>, or my <span className={styles.textLink}><a className={styles.link} href="https://read.cv/josh" target="_blank" rel="noreferrer">cv</a></span>.</p>
           </div>
-
         </div>
       </div>
   )

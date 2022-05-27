@@ -13,27 +13,29 @@ export default function Home() {
             <title>Josh Nelson | CBS Sports</title>
             <link rel="icon" href="/signature.png" type="image/x-icon" />
         </Head>
-
-            <Header />
         
-            <div className={styles.projectHeader}>
-                <p className={styles.headerLink}>CBS Sports</p>
+            <div className={styles.content}>
+
+            <div className={styles.textContainer}>
+                <p className={styles.t1}><span className={styles.textLink}><Link className={styles.link} href="/">joshn.io</Link></span> / CBS Sports</p>
             </div>
 
             <div className={styles.textContainer}>
-              <p className={styles.projectTitle}>247 Sports Homepage</p>
-              <p className={styles.projectDescription}>Shipped Spring &apos;22</p>
+              <p className={styles.t1}>247 Sports Homepage</p>
+              <p className={styles.t2}>Shipped Spring &apos;22</p>
             </div>
 
 
             <video className={styles.video} src="/videos/cbs1.mp4" autoPlay muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/cbs1.mp4" muted loop controls></video>
 
             <video className={styles.video} src="/videos/cbs2.mp4" autoPlay muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/cbs2.mp4" muted loop controls></video>
 
             <video className={styles.video} src="/videos/cbs3.mp4" autoPlay muted loop controls></video>
+            <video className={styles.videoMobile} src="/videos/cbs3.mp4" muted loop controls></video>
 
-            <Footer />
         </div>
-
+    </div>
     )
 }
