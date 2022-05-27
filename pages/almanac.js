@@ -22,7 +22,7 @@ export default function Home() {
 
             <div className={styles.textContainer}>
               <p className={styles.projectTitle}>Navigation and Search</p>
-              <p className={styles.projectDescription}>Shipped Fall '21</p>
+              <p className={styles.projectDescription}>Shipped Fall &apos;21</p>
             </div>
 
 

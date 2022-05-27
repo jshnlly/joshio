@@ -22,7 +22,7 @@ export default function Home() {
 
             <div className={styles.textContainer}>
               <p className={styles.projectTitle}>247 Sports Homepage</p>
-              <p className={styles.projectDescription}>Shipped Spring '22</p>
+              <p className={styles.projectDescription}>Shipped Spring &apos;22</p>
             </div>
 
 

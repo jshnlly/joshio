@@ -22,7 +22,7 @@ export default function Home() {
 
             <div className={styles.textContainer}>
               <p className={styles.projectTitle}>Quick Send v2</p>
-              <p className={styles.projectDescription}>Shipped May ‘22 – prototypes made in Origami.</p>
+              <p className={styles.projectDescription}>Shipped May &apos;22 – prototypes made in Origami.</p>
             </div>
 
 
