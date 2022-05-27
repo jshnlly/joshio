@@ -1,10 +1,16 @@
 
 .footer {
     margin-top: 96px;
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+    line-height: 140%;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #00000060;
 }
   
 .base { 
-    font-family: Helvetica;
+    font-family: 'Newsreader', serif;
     line-height: 140%;
     margin-bottom: 4px;
 }
@@ -19,8 +25,4 @@
     cursor: ne-resize;
     border-bottom: 1.5px solid #00000050;
     color: #0984E3;
-  }
-
-.link:hover {
-    cursor: ne-resize;
   }

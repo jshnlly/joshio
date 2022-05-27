@@ -17,31 +17,20 @@ export default function Home() {
             <Header />
         
             <div className={styles.projectHeader}>
-                <p className={styles.base}>CBS Sports</p>
-                <p className={styles.base}>Product Design</p>
-                <p className={styles.baseSecondary}>Jan 2021 – Aug 2021</p>
+                <p className={styles.headerLink}>CBS Sports</p>
+            </div>
+
+            <div className={styles.textContainer}>
+              <p className={styles.projectTitle}>247 Sports Homepage</p>
+              <p className={styles.projectDescription}>Shipped Spring '22</p>
             </div>
 
 
             <video className={styles.video} src="/videos/cbs1.mp4" autoPlay muted loop controls></video>
 
-            <div className={styles.videoDescription}>
-                <p className={styles.base}>I led the re-design for 247 Sports homepage and college properties that shipped as an MVP earlier this year. This design had to suit a national brand, as well as over 50 college sites that each had their own individual organizational needs.</p>
-                <div className={styles.dividerSmall}></div>
-            </div>
-
             <video className={styles.video} src="/videos/cbs2.mp4" autoPlay muted loop controls></video>
 
-            <div className={styles.videoDescription}>
-                <p className={styles.base}>I led the re-design for 247 Sports homepage and college properties that shipped as an MVP earlier this year. This design had to suit a national brand, as well as over 50 college sites that each had their own individual organizational needs.</p>
-            </div>
-
             <video className={styles.video} src="/videos/cbs3.mp4" autoPlay muted loop controls></video>
-
-            <div className={styles.videoDescription}>
-                <p className={styles.base}>I led the re-design for 247 Sports homepage and college properties that shipped as an MVP earlier this year. This design had to suit a national brand, as well as over 50 college sites that each had their own individual organizational needs.</p>
-                <div className={styles.dividerSmall}></div>
-            </div>
 
             <Footer />
         </div>

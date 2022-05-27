@@ -17,40 +17,25 @@ export default function Home() {
         <Header />
          
             <div className={styles.projectHeader}>
-                <p className={styles.base}>Almanac</p>
-                <p className={styles.base}>Product Design</p>
-                <p className={styles.baseSecondary}>Aug 2021 – Dec 2021</p>
+                <p className={styles.headerLink}>Almanac</p>
             </div>
+
+            <div className={styles.textContainer}>
+              <p className={styles.projectTitle}>Navigation and Search</p>
+              <p className={styles.projectDescription}>Shipped Fall '21</p>
+            </div>
+
 
 
             <video className={styles.video} src="/videos/almanac1.mp4" autoPlay muted loop controls></video>
-        
-            <div className={styles.videoDescription}>
-                <p className={styles.base}>Almanac’s file manager was designed to be fully customizable, maximizing user control. We wanted users to be able to have the information important to them in as little as possible.</p>
-            </div>
 
             <video className={styles.video} src="/videos/almanac2.mp4" autoPlay muted loop controls></video>
 
-            <div className={styles.videoDescription}>
-                <p className={styles.base}>Almanac has the largest collection of open source documents that double as templates within each workspace, keeping those accessible was also top of mind.</p>
-                <div className={styles.dividerSmall}></div>
-            </div>
-
             <video className={styles.video} src="/videos/almanac3.mp4" autoPlay muted loop controls></video>
-
-            <div className={styles.videoDescription}>
-                <p className={styles.base}>Almanac’s search was designed from the ground up to be fast. We wanted users to feel like any document, person, or group could be found in a second.</p>
-            </div>
 
             <video className={styles.video} src="/videos/almanac4.mp4" autoPlay muted loop controls></video>
 
-            <div className={styles.videoDescription}>
-                <p className={styles.base}>As with the rest of the product; we wanted users to have full control of their experience. We designed rich filtering that user’s could save as views to find anything easier.</p>
-                <div className={styles.dividerSmall}>
-            </div>
-
             <Footer />
-        </div>
     </div>
     )
 }
