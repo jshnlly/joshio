@@ -24,7 +24,7 @@ export default function Home() {
                 <p className={styles.t2}>Shipped May &apos;22 – prototypes made in Origami.</p>
             </div>
 
-            <video className={styles.video} src="/videos/qs.mp4" autoPlay muted playsinline loop controls></video>
+            <video className={styles.video} src="/videos/qs.mp4" autoPlay muted webkit-playsinline playsinline loop controls></video>
 
         </div>
     </div>
