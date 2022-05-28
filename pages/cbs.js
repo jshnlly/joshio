@@ -26,14 +26,11 @@ export default function Home() {
             </div>
 
 
-            <video className={styles.video} src="/videos/cbs1.mp4" autoPlay muted loop controls></video>
-            <video className={styles.videoMobile} src="/videos/cbs1.mp4"controls></video>
+            <video className={styles.video} src="/videos/cbs1.mp4" autoPlay muted playsinline loop controls></video>
 
-            <video className={styles.video} src="/videos/cbs2.mp4" autoPlay muted loop controls></video>
-            <video className={styles.videoMobile} src="/videos/cbs2.mp4" controls></video>
+            <video className={styles.video} src="/videos/cbs2.mp4" autoPlay muted playsinline loop controls></video>
 
-            <video className={styles.video} src="/videos/cbs3.mp4" autoPlay muted loop controls></video>
-            <video className={styles.videoMobile} src="/videos/cbs3.mp4" controls></video>
+            <video className={styles.video} src="/videos/cbs3.mp4" autoPlay muted playsinline loop controls></video>
 
         </div>
     </div>
