@@ -25,13 +25,13 @@ export default function Home() {
                 <p className={styles.t2}>Shipped Fall &apos;21</p>
             </div>
 
-            <video className={styles.video} src="/videos/almanac1.mp4" type="video/mp4" autoplay muted playsinline loop controls="false"></video>
+            <video className={styles.video} src="/videos/almanac1.mp4" type="video/mp4" autoPlay muted playsinline loop controls="false"></video>
 
-            <video className={styles.video} src="/videos/almanac2.mp4" type="video/mp4" autoplay muted playsinline loop controls="false"></video>
+            <video className={styles.video} src="/videos/almanac2.mp4" type="video/mp4" autoPlay muted playsinline loop controls="false"></video>
 
-            <video className={styles.video} src="/videos/almanac3.mp4" type="video/mp4" autoplay muted playsinline loop controls="false"></video>
+            <video className={styles.video} src="/videos/almanac3.mp4" type="video/mp4" autoPlay muted playsinline loop controls="false"></video>
 
-            <video className={styles.video} src="/videos/almanac4.mp4" type="video/mp4" autoplay muted playsinline loop controls="false"></video>
+            <video className={styles.video} src="/videos/almanac4.mp4" type="video/mp4" autoPlay muted playsinline loop controls="false"></video>
 
             </div>
 
