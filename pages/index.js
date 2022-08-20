@@ -14,7 +14,7 @@ export default function Home() {
         <div className={styles.content}>
 
           <div className={styles.textContainer}>
-              <p className={styles.t1}>I&apos;m an interface designer, fanatically obsessed with the craft and interactions that shape software. I&apos;m currently living in San Francisco, designing sharing experiences for <span className={styles.textLink}><Link className={styles.link} href="/instagram">Instagram</Link></span>. I previously designed for <span className={styles.textLink}><Link className={styles.link} href="/almanac">Almanac</Link></span>, <span className={styles.textLink}><Link className={styles.link} href="/cbs">CBS Sports</Link></span>, + a few startups.</p>
+              <p className={styles.t1}>I&apos;m an interface designer, fanatically obsessed with the craft and interactions that shape software. I&apos;m currently living in San Francisco, designing sharing experiences for <span className={styles.textLink}><Link className={styles.link} href="https://instagram.com" target="_blank">Instagram</Link></span>. I previously designed for <span className={styles.textLink}><Link className={styles.link} href="https://almanac.io" target="_blank">Almanac</Link></span>, <span className={styles.textLink}><Link className={styles.link} href="https://cbssports.com" target="_blank">CBS Sports</Link></span>, + a few startups.</p>
           </div>
 
           <div className={styles.linkContainer}>
