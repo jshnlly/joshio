@@ -94,10 +94,10 @@ export default function Home() {
               <a href="https://instagram.com" target="_blank">
                 <ProjectCell name="Instagram Stories" year="2022" image="/images/ext.png" url="/" />
               </a>
-              <a href="/videos/almanac1.mp4" target="_blank"><ProjectCell name="Instagram Sharesheet" year="2022" image="/images/mp4.png" /></a>
-              <a href="/videos/qs.mp4" target="_blank"><ProjectCell name="Instagram Quick Send" year="2022" image="/images/mp4.png" /></a>
-              <a href="/videos/almanac1.mp4" target="_blank"><ProjectCell name="Almanac Files" year="2021" image="/images/mp4.png" /></a>
-              <a href="/videos/almanac3.mp4" target="_blank"><ProjectCell name="Almanac Search" year="2021" image="/images/mp4.png" /></a>
+              <a href="/videos/almanac1.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Sharesheet" year="2022" image="/images/mp4.png" /></a>
+              <a href="/videos/qs.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Quick Send" year="2022" image="/images/mp4.png" /></a>
+              <a href="/videos/almanac1.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Almanac Files" year="2021" image="/images/mp4.png" /></a>
+              <a href="/videos/almanac3.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Almanac Search" year="2021" image="/images/mp4.png" /></a>
               <Link href="/"><ProjectCell name="Breathwrk Paywalls" year="2020" image="/images/png.png" /></Link>
           </div>
 
@@ -109,10 +109,10 @@ export default function Home() {
                 <br></br>
                 I write at<span className={styles.inlineLink}><a href="https://joshn.substack.com" target="_blank">joshn.substack.com</a></span>and
                 can be reached through  
-                <span className={styles.inlineLink}><a href="mailto:josh@joshn.io" target="_blank">email</a></span>,
-                <span className={styles.inlineLink}><a href="https://twitter.com/jnelly2" target="_blank">twitter</a></span>, 
-                <span className={styles.inlineLink}><a href="https://linkedin.com/in/jshn" target="_blank">linkedin</a></span>, or 
-                <span className={styles.inlineLink}><a href="https://read.cv/josh" target="_blank">readcv</a></span>.
+                <span className={styles.inlineLink}><a href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">email</a></span>,
+                <span className={styles.inlineLink}><a href="https://twitter.com/jnelly2" target="_blank" rel="noreferrer">twitter</a></span>, 
+                <span className={styles.inlineLink}><a href="https://linkedin.com/in/jshn" target="_blank" rel="noreferrer">linkedin</a></span>, or 
+                <span className={styles.inlineLink}><a href="https://read.cv/josh" target="_blank" rel="noreferrer">readcv</a></span>.
               </p>
             </div>
           </div>
