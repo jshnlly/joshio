@@ -66,18 +66,11 @@
   .container {
     padding: 8px;
     display: flex;
-    flex-direction: column;
     margin-top: 24px;
   }
 
   .content {
     padding: 8px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .textContainer {
-    margin-bottom: 72px;
   }
 }
 
