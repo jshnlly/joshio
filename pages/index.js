@@ -107,7 +107,7 @@ export default function Home() {
               <p>I’m currently not open to full-time opportunities, but always open to talk to people interested in making products with craft. 
                 <br></br>
                 <br></br>
-                I write at<span className={styles.inlineLink}><a href="https://joshn.substack.com" target="_blank">joshn.substack.com</a></span>and
+                I write at<span className={styles.inlineLink}><a href="https://joshn.substack.com" target="_blank" rel="noreferrer">joshn.substack.com</a></span>and
                 can be reached through  
                 <span className={styles.inlineLink}><a href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">email</a></span>,
                 <span className={styles.inlineLink}><a href="https://twitter.com/jnelly2" target="_blank" rel="noreferrer">twitter</a></span>, 
