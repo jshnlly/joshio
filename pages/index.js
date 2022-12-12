@@ -95,11 +95,11 @@ export default function Home() {
               <a href="https://instagram.com" target="_blank" rel="noreferrer">
                 <ProjectCell name="Instagram Stories" year="2022" image="/images/ext.png" url="/" />
               </a>
-              <a href="/videos/almanac1.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Sharesheet" year="2022" image="/images/mp4.png" /></a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Sharing" year="2022" image="/images/mp4.png" /></a>
               <a href="/videos/qs.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Quick Send" year="2022" image="/images/mp4.png" /></a>
               <a href="/videos/almanac1.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Almanac Files" year="2021" image="/images/mp4.png" /></a>
               <a href="/videos/almanac3.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Almanac Search" year="2021" image="/images/mp4.png" /></a>
-              <a href="/images/breathwrk.png" target="_blank" rel="noreferrer"><ProjectCell name="Breathwrk Paywalls" year="2020" image="/images/png.png" /></a>
+              <a href="/images/breathwrk.png" target="_blank" rel="noreferrer"><ProjectCell name="Breathwrk Paywalls" year="2020" image="/images/ext.png" /></a>
           </div>
 
           <div className={styles.footer} ref={el => foot = el}>
