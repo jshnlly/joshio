@@ -28,7 +28,7 @@ export default function Home(props) {
                 </div>
 
                 <div className={styles.projectIcon} ref={el => image = el} >
-                    <Image src={props.image} width={22} height={16} />
+                    <Image src={props.image} width={22} height={16} alt="icon" />
                 </div>
         </div>
     )

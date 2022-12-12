@@ -87,11 +87,11 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className={styles.subtitle} ref={el => sub = el}>b. 1999. <span className={styles.inlineLink}><a href="mailto:josh@joshn.io" target="_blank">josh&#91;at&#93;joshn.io</a></span></div>
+              <div className={styles.subtitle} ref={el => sub = el}>b. 1999. <span className={styles.inlineLink}><a href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">josh&#91;at&#93;joshn.io</a></span></div>
           </div>
 
           <div className={styles.projects} ref={el => proj = el}>
-              <a href="https://instagram.com" target="_blank">
+              <a href="https://instagram.com" target="_blank" rel="noreferrer">
                 <ProjectCell name="Instagram Stories" year="2022" image="/images/ext.png" url="/" />
               </a>
               <a href="/videos/almanac1.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Sharesheet" year="2022" image="/images/mp4.png" /></a>
