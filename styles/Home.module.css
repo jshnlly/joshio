@@ -74,31 +74,7 @@
   }
 
   .items {
-    margin-bottom: 0px;
-    animation-name: hack;
-    animation-duration: 6.4;
-  }
-
-  @keyframes hack {
-    0% {
-      margin-bottom: 0px;
-    }
-
-    25% {
-      margin-bottom: 1px;
-    }
-    
-    50% {
-      margin-bottom: 2px
-    }
-
-    75% {
-      margin-bottom: 3px;
-    }
-
-    100% {
-      margin-bottom: 4px;
-    }
+    margin-bottom: 4px;
   }
 }
 
