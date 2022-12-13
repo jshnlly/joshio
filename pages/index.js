@@ -99,6 +99,7 @@ export default function Home() {
               <a href="/videos/qs.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Quick Send" year="2022" image="/images/mp4.png" /></a>
               <a href="/videos/almanac1.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Almanac Files" year="2021" image="/images/mp4.png" /></a>
               <a href="/videos/almanac3.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Almanac Search" year="2021" image="/images/mp4.png" /></a>
+              <a href="/videos/cbs3.mp4" target="_blank" rel="noreferrer"><ProjectCell name="CBS Sports, 247 Homepage" year="2021" image="/images/mp4.png" /></a>
               <a href="/images/breathwrk.png" target="_blank" rel="noreferrer"><ProjectCell name="Breathwrk Paywalls" year="2020" image="/images/png.png" /></a>
           </div>
 
