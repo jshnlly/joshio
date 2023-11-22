@@ -80,18 +80,18 @@ export default function Home() {
           <div className={styles.titleContainer}>
               <div className={styles.header} ref={el => text = el}>Josh Nelson is 
                 <div className={styles.items} ref={el => items = el}>
-                  <span className={styles.item0} ref={el => first = el}>designing Instagram Stories</span>
+                  <span className={styles.item0} ref={el => first = el}>designing at Instagram</span>
                   <span className={styles.item1} ref={el => second = el}>making apps with craft</span>
                   <span className={styles.item2} ref={el => third = el}>caring about the details</span>
                   <span className={styles.item3} ref={el => fourth = el}>thinking about tomorrow</span>
-                  <span className={styles.item4} ref={el => fifth = el}>designing Instagram Stories</span>
+                  <span className={styles.item4} ref={el => fifth = el}>designing at Instagram</span>
                 </div>
               </div>
 
               <div className={styles.subtitle} ref={el => sub = el}>b. 1999. <span className={styles.inlineLink}><a href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">josh&#91;at&#93;joshn.io</a></span></div>
           </div>
 
-          <div className={styles.projects} ref={el => proj = el}>
+          {/*<div className={styles.projects} ref={el => proj = el}>
             <a href="/videos/super-share.mp4" target="_blank" rel="noreferrer"><ProjectCell name="Instagram Sharesheet" year="2023" image="/images/mp4.png" /></a>
               <a href="https://www.wsj.com/articles/instagram-challenges-bereal-and-adds-notes-short-message-feature-11670945979?mod=hp_lista_pos1" target="_blank" rel="noreferrer">
                 <ProjectCell name="Instagram Candid Stories" year="2022" image="/images/ext.png" url="/" />
@@ -103,7 +103,7 @@ export default function Home() {
               <a href="/videos/cbs-gt.mp4" target="_blank" rel="noreferrer"><ProjectCell name="CBS Sports, Soccer Gametracker" year="2021" image="/images/mp4.png" /></a>
               <a href="/videos/cbs3.mp4" target="_blank" rel="noreferrer"><ProjectCell name="CBS Sports, 247 Homepage" year="2021" image="/images/mp4.png" /></a>
               <a href="/images/breathwrk.png" target="_blank" rel="noreferrer"><ProjectCell name="Breathwrk Paywalls" year="2020" image="/images/png.png" /></a>
-          </div>
+          </div> */}
 
           <div className={styles.footer} ref={el => foot = el}>
             <div className={styles.line}></div>
@@ -111,8 +111,7 @@ export default function Home() {
               <p>I’m currently not open to full-time opportunities, but always open to talk to people interested in making products with craft. 
                 <br></br>
                 <br></br>
-                I write at<span className={styles.inlineLink}><a href="https://joshn.substack.com" target="_blank" rel="noreferrer">joshn.substack.com</a></span>and
-                can be reached through  
+                I can be reached through  
                 <span className={styles.inlineLink}><a href="mailto:josh@joshn.io" target="_blank" rel="noreferrer">email</a></span>,
                 <span className={styles.inlineLink}><a href="https://twitter.com/jnelly2" target="_blank" rel="noreferrer">twitter</a></span>, 
                 <span className={styles.inlineLink}><a href="https://linkedin.com/in/jshn" target="_blank" rel="noreferrer">linkedin</a></span>, or 
