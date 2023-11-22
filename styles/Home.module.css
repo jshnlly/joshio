@@ -54,7 +54,7 @@
 }
 
 .line {
-  border-bottom: 0.5px dashed rgba(0, 0, 0, 0.4);
+  border-bottom: 0.5px dashed rgba(0, 0, 0, 0.0);
   margin-bottom: 24px;
 }
 

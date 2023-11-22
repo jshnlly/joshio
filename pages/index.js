@@ -106,7 +106,7 @@ export default function Home() {
           </div> */}
 
           <div className={styles.footer} ref={el => foot = el}>
-            {/* <div className={styles.line}></div> */}
+           <div className={styles.line}></div>
             <div className={styles.footerText}>
               <p>I’m currently not open to full-time opportunities, but always open to talk to people interested in making products with craft. 
                 <br></br>
