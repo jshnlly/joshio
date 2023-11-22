@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <div className={styles.container} ref={el => main = el}>
       <Head>
-        <title>Josh Nelson | Designer</title>
+        <title>Josh Nelson, Designer</title>
         <link rel="icon" href="/signature.png" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
       </Head>
