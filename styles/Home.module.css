@@ -264,6 +264,7 @@
 
   .videoContainer {
     height: 80vh;
+    background: none;
     border-radius: 4px;
   }
 
