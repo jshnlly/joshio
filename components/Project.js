@@ -170,7 +170,7 @@ const Project = ({ imageUrl, title, year, pageUrl, isLeaving, onProjectClick }) 
     const containerStyle = {
         width: '100%',
         boxSizing: 'border-box',
-        padding: '8px',
+        paddingLeft: '8px'
       };
 
     const gridStyle = {
