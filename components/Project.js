@@ -3,7 +3,6 @@ import React from 'react'
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-
 import Image from 'next/image';
 
 const containerVariants = {
@@ -125,10 +124,15 @@ const Project = ({ imageUrl, title, year, pageUrl, isLeaving, onProjectClick }) 
             }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
           >
-            <img 
+            <Image
               src={imageUrl} 
               alt={title}
-              style={imageStyle}
+              fill
+              style={{ objectFit: 'cover' }}
+              sizes="(max-width: 640px) 100vw, 
+                     (max-width: 1024px) 50vw,
+                     33vw"
+              priority={false}
             />
           </motion.div>
           
