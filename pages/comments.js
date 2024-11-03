@@ -71,7 +71,10 @@ export default function Comments() {
                 {/* Header */}
                 <motion.div variants={itemVariants} className={styles.navContainer}>
                     <div className={styles.navLeftWork}> 
-                        <button onClick={handleBack}>
+                        <button 
+                            onClick={handleBack}
+                            className={styles.backButton}
+                        >
                             Back
                         </button>
                     </div>
