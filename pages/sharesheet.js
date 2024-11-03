@@ -99,10 +99,10 @@ export default function Comments() {
                 {/* Video Container */}
                 <motion.div 
                     variants={itemVariants} 
-                    className={styles.videoContainer}
+                    className={styles.videoContainerTemp}
                 >
                     <video autoPlay loop muted playsInline className={styles.workVideo}>
-                        <source src="/videos/Hype Strings Phone.mp4" type="video/mp4" />
+                        <source src="/videos/super-share.mp4" type="video/mp4" />
                     </video>
 
                 </motion.div>
@@ -110,7 +110,7 @@ export default function Comments() {
                 {/* Footer */}
                 <motion.div variants={itemVariants} className={styles.navContainer}>
                     <div className={styles.navLeftWork}> 
-                        <p>with Nate Hajian, Angelina Tjung</p>
+                        {/* <p>with Nate Hajian, Angelina Tjung</p> */}
                     </div>
                 </motion.div>
 
