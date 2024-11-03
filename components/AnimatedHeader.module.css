@@ -1,0 +1,56 @@
+/* components/AnimatedHeader.module.css */
+.headerContainer {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .navLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navLeft p {
+    opacity: 0.3;
+  }
+
+  .navRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 8px;
+  }
+  
+  .navRight p {
+    opacity: 0.3;
+  }
+  
+  .mainLinkText {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .intro {
+    margin-top: 24px;
+  }
+  
+  .intro p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 480px) {
+    .headerContainer {
+      margin-top: 24px;
+    }
+  
+    .navLeft p {
+      display: none;
+    }
+  }
