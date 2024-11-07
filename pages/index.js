@@ -36,7 +36,7 @@ export default function Home() {
     // title: "Immersive Note Viewer",
     //  year: "2023",
     //  pageUrl: "/notes"
-    // }
+    // },
     {
       imageUrl: "/gifs/candid.gif",
       title: "Candid Stories",
@@ -66,6 +66,7 @@ export default function Home() {
         <title>Josh Nelson, Interface Designer</title>
         <link rel="icon" href="/signature.png" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <meta name="description" content="Josh Nelson is an interface designer and prototyper currently at Instagram." />
       </Head>
 
         <div className={styles.content}>

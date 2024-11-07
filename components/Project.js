@@ -60,25 +60,21 @@ const Project = ({ imageUrl, title, year, pageUrl, isLeaving, onProjectClick }) 
 
     const projectStyle = {
       aspectRatio: '1 / 1',
-      backgroundColor:"#f5f5f5",
       overflow: 'hidden',
       position: 'relative',
       cursor: 'pointer',
       width: '100%',
-      border: 'none',
     };
   
     const imageStyle = {
       width: '100%',
       height: '100%',
       objectFit: 'cover',
-      border: 'none',
     };
 
     const imageContainerStyle = {
         width: '100%',
         height: '100%',
-        border: 'none',
       };
   
     const overlayStyle = {
@@ -88,7 +84,6 @@ const Project = ({ imageUrl, title, year, pageUrl, isLeaving, onProjectClick }) 
       right: 0,
       padding: '16px',
       color: 'black',
-      border: 'none',
     };
   
     const titleStyle = {
@@ -120,7 +115,7 @@ const Project = ({ imageUrl, title, year, pageUrl, isLeaving, onProjectClick }) 
           <motion.div 
             style={imageContainerStyle}
             animate={{ 
-              scale: isLeaving ? 1 : isHovered ? 1 : 1
+              scale: isLeaving ? 1.02 : isHovered ? 1.02 : 1.02
             }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
           >
@@ -197,7 +192,7 @@ const Project = ({ imageUrl, title, year, pageUrl, isLeaving, onProjectClick }) 
             display: grid;
             gap: 16px;
             width: 100%;
-            grid-template-columns: 1fr;  /* Mobile first - single column */
+            grid-template-columns: 1fr; /* Mobile first - single column */
           }
     
           @media (min-width: 640px) {
