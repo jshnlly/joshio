@@ -67,8 +67,8 @@ const AnimatedHeader = ({ isLeaving }) => {
 
       {/* Intro Text */}
       <motion.div variants={itemVariants} className={styles.intro}>
-        <p>I like to design and prototype and strive for <br /> interface excellence in all my work.</p>
-        <p>I&apos;m currently leading design projects across <br /> Stories and Labs teams at Instagram.</p>
+        <p>I like to prototype dynamic interactions <br /> and care deeply about crafting interfaces that <br /> can communicate the future.</p>
+        <p>I&apos;m currently leading design projects across <br /> Stories and Labs teams at Instagram. <br /></p>
       </motion.div>
     </motion.div>
   );
