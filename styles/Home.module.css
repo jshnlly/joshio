@@ -237,7 +237,7 @@
 
 @media (max-width: 480px) {
   .container {
-    padding: 16px;
+    padding: 0px;
     display: flex;
     margin-top: 24px;
   }
