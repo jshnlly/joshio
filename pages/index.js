@@ -43,12 +43,12 @@ export default function Home() {
     //  year: "2023",
     //  pageUrl: "/notes"
     // },
-    {
-      imageUrl: "/gifs/candid.gif",
-      title: "Candid Stories",
-      year: "2023",
-      pageUrl: "/candid"
-    },
+    // {
+    //   imageUrl: "/gifs/candid.gif",
+    //   title: "Candid Stories",
+    //   year: "2023",
+    //   pageUrl: "/candid"
+    // },
     {
       imageUrl: "/gifs/airplane.gif",
       title: "Share Sheet",
