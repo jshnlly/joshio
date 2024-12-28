@@ -49,16 +49,18 @@ const AnimatedHeader = ({ isLeaving }) => {
     }
   };
 
-  const formattedTime = time.toLocaleString('en-US', { 
+  const formattedTime = `${time.toLocaleString('en-US', { 
     timeZone: 'America/New_York',
     weekday: 'long',
     month: 'long', 
-    day: 'numeric',
+    day: 'numeric'
+  })} ${time.toLocaleString('en-US', {
+    timeZone: 'America/New_York',
     hour: 'numeric',
     minute: 'numeric',
     second: 'numeric',
     hour12: false
-  });
+  })}`;
 
   return (
     <motion.div
