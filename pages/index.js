@@ -14,6 +14,12 @@ export default function Home() {
 
   const cardData = [
     {
+      imageUrl: "/gifs/collage.gif",
+      title: "End of Year Collage",
+      year: "2024",
+      pageUrl: "/collage"
+    },
+    {
       imageUrl: "/gifs/Strings Only.gif",
       title: "Story Comments",
       year: "2024",

@@ -1,6 +1,7 @@
 // components/AnimatedHeader.js
 import { motion } from 'framer-motion';
 import styles from './AnimatedHeader.module.css';
+import React from 'react';
 
 const AnimatedHeader = ({ isLeaving }) => {
   const containerVariants = {
@@ -50,7 +51,27 @@ const AnimatedHeader = ({ isLeaving }) => {
       <motion.div variants={itemVariants} className={styles.navContainer}>
         <div className={styles.navLeft}> 
           <a href="https://joshn.io" rel="noreferrer" className={styles.mainLinkText}>Josh Nelson</a>
-          <p>Last updated: 11/02/24 at 9:38PM</p>
+          <p>{(() => {
+            const [time, setTime] = React.useState(new Date());
+            
+            React.useEffect(() => {
+              const timer = setInterval(() => {
+                setTime(new Date());
+              }, 1000);
+              return () => clearInterval(timer);
+            }, []);
+
+            return time.toLocaleString('en-US', { 
+              timeZone: 'America/New_York',
+              weekday: 'long',
+              month: 'long', 
+              day: 'numeric',
+              hour: 'numeric',
+              minute: 'numeric',
+              second: 'numeric',
+              hour12: false
+            });
+          })()}</p>
         </div>
 
         <div className={styles.navRight}>
