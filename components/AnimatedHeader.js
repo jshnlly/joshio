@@ -4,6 +4,15 @@ import styles from './AnimatedHeader.module.css';
 import React from 'react';
 
 const AnimatedHeader = ({ isLeaving }) => {
+  const [time, setTime] = React.useState(new Date());
+            
+  React.useEffect(() => {
+    const timer = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
   const containerVariants = {
     hidden: { 
       opacity: 0
@@ -32,13 +41,24 @@ const AnimatedHeader = ({ isLeaving }) => {
     },
     exit: {
       opacity: 0,
-      y: 20,  // Same as starting position
+      y: 20,
       transition: {
         duration: 0.4,
         ease: [0.23, 1, 0.32, 1]
       }
     }
   };
+
+  const formattedTime = time.toLocaleString('en-US', { 
+    timeZone: 'America/New_York',
+    weekday: 'long',
+    month: 'long', 
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+    hour12: false
+  });
 
   return (
     <motion.div
@@ -51,27 +71,7 @@ const AnimatedHeader = ({ isLeaving }) => {
       <motion.div variants={itemVariants} className={styles.navContainer}>
         <div className={styles.navLeft}> 
           <a href="https://joshn.io" rel="noreferrer" className={styles.mainLinkText}>Josh Nelson</a>
-          <p>{(() => {
-            const [time, setTime] = React.useState(new Date());
-            
-            React.useEffect(() => {
-              const timer = setInterval(() => {
-                setTime(new Date());
-              }, 1000);
-              return () => clearInterval(timer);
-            }, []);
-
-            return time.toLocaleString('en-US', { 
-              timeZone: 'America/New_York',
-              weekday: 'long',
-              month: 'long', 
-              day: 'numeric',
-              hour: 'numeric',
-              minute: 'numeric',
-              second: 'numeric',
-              hour12: false
-            });
-          })()}</p>
+          <p>{formattedTime}</p>
         </div>
 
         <div className={styles.navRight}>
