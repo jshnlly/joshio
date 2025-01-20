@@ -37,12 +37,12 @@ export default function Home() {
       year: "2024",
       pageUrl: "/stickers"
     },
-    {
-    imageUrl: "/gifs/Note Pogs.gif",
-    title: "Immersive Note Viewer",
-     year: "2023",
-     pageUrl: "/notes"
-    },
+    // {
+    // imageUrl: "/gifs/Note Pogs.gif",
+    // title: "Immersive Note Viewer",
+    //  year: "2023",
+    //  pageUrl: "/notes"
+    // },
     // {
     //   imageUrl: "/gifs/candid.gif",
     //   title: "Candid Stories",
